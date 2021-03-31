@@ -17,11 +17,11 @@ if (!empty($_POST['input'])) {
  </head>
  <body style="background: #eee;">
      <h2>PHP Captcha Verfication</h2>
+     <h4><?= $pesan; ?></h4>
      <img src="captcha.php">
      <form action="" method="post">
         <input type="text" name="input" required oninput="this.value=this.value.toUpperCase()"><button type="submit">Submit</button>
         <div>*the default captcha code is uppercase.</div>
      </form>
-     <h4><?= $pesan; ?></h4>
  </body>
  </html>
