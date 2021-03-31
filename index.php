@@ -16,7 +16,7 @@ if (!empty($_POST['input'])) {
      <title>Speed Test | PHP Captcha</title>
  </head>
  <body style="background: #eee;">
-     <h2>PHP Captcha Verfication</h2>
+     <h2>PHP Captcha Verification</h2>
      <h4><?= $pesan; ?></h4>
      <img src="captcha.php">
      <form action="" method="post">
